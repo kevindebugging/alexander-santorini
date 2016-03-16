@@ -201,7 +201,15 @@ ul.terms li {
 ul.terms li strong {
     color: #346292;
 }
-
+.faq {
+    width: 90%;
+    text-align: justify;
+}
+@media screen and (max-width: 992px) {
+  .faq {
+      width: 100%;
+  }
+}
 @media screen and (max-width: 480px) {
 	.wpum-registration-form fieldset label {
     		width: 100%;
