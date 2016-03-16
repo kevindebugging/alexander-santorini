@@ -33,7 +33,8 @@
  	?>
 
 	<?php // If either footer nav or site credits, display them
-	if ( $nav_menu OR $site_credits ) : ?>
+	//if ( $nav_menu OR $site_credits ) : ?>
+	<?php if(is_front_page()){ ?>
 	<div class="after-footer">
 	<div class="container">
 
@@ -47,9 +48,16 @@
 			</div><!-- .footer-nav-menu -->
 		<?php endif; ?>
 
+
+			<p class="credit">
+				Website Developed by <a href="http://islandmediamanagement.com" target="_blank">Island Media Management</a>
+			</p>
+
+
 	</div><!-- .container -->
 	</div><!-- .after-footer -->
-	<?php endif; ?>
+	<?php } ?>
+	<?php //endif; ?>
 
 	</footer><!-- #colophon -->
 
