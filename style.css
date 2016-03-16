@@ -1,0 +1,231 @@
+/*
+Theme Name: Flat Bootstrap Child
+Template: flat-bootstrap
+Author: Child Theme Configurator
+Version: 1.0.1447910597
+Updated: 2015-11-19 05:23:17
+*/
+
+@charset "UTF-8";
+
+@font-face {
+    font-family: Proxima-Nova;
+    src: url(fonts/ProximaNova-Regular.otf);
+}
+
+body{
+	font-family: "Proxima-Nova", Arial;
+	font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Proxima Nova";
+}
+
+h1{
+	font-size: 38px;
+	color: #346292;
+}
+h2{
+	font-size: 32px;
+	color: #346292;
+}
+h3{
+	color: #346292;
+}
+
+p {
+   	margin: 0 0 20px;
+	line-height: 25px;
+}
+input[type="submit"] {
+    color: #fff;
+    background-color: #5695D8;
+    border-color: #5695D8;
+}
+input[type="submit"]:hover {
+    color: #fff;
+    background-color: #346292;
+    border-color: #346292;
+}
+
+/* Header */
+.custom-header-image{
+	width: 400px !important;
+	background-size: contain !important;
+	background-repeat: no-repeat;
+	height: 120px !important;
+}
+.navbar-brand{
+	display: none;
+}
+.navbar-nav li {
+    	display: inline-block;
+    	float: none;
+}
+.navbar-nav {
+    	float: none;
+    	margin: 0 auto;
+    	text-align: center;
+}
+.navbar-default{
+	background-color: #C4C3C3;
+	border: none;
+}
+ul.nav.navbar-nav li a {
+    color: #5695D8;
+}
+ul.nav.navbar-nav li a:hover {
+    color: #346292;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover {
+    color: #346292;
+}
+.metaslider{
+	margin-bottom: 30px !important;
+}
+header.content-header {
+    	min-height: 0;
+    	background-color: #fff;
+	padding: 0;
+}
+header.content-header h1 {
+    	color: #346292;
+    	/*text-transform: uppercase;*/
+    	border-bottom: 1px solid #346292;
+    	padding-bottom: 10px;
+	margin-bottom: 25px;
+}
+
+/* Content */
+.button-wrapper {
+    	border: 1px solid #C4C3C3;
+    	width: 100%;
+    	padding: 30px;
+	text-align: center;
+	display: block;
+	font-size: 24px;
+	transition: ease all 0.3s;
+	margin: 15px 0;
+}
+.button-wrapper:hover{
+	background-color: #336090;
+	color: #fff;
+}
+a{
+	color: #5695D8;
+}
+a:hover, a:active, a:focus{
+	color: #346292;
+}
+.navbar-default{
+	background-color: #fff;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.navbar-nav>li>a:hover, .navbar-nav>li>a:focus{
+    	font-weight: 400;
+}
+.navbar-default .navbar-nav>.active>a{
+	font-weight: 900;
+	background-color: transparent;
+}
+.navbar-nav li.active a:hover {
+    background-color: transparent !important;
+}
+
+/*Footer*/
+.after-footer{
+	background-color: #fff;
+	color: #555;
+    	font-size: 14px;
+}
+.social-connect {
+    	min-height: 50px;
+    	display: block;
+    	float: right;
+}
+.social-connect a {
+    	color: #555;
+	padding-right: 10px;
+}
+.social-connect a:hover {
+    	color: #333;
+}
+.social-connect a img {
+    margin-top: -15px;
+}
+.social-connect p {
+    margin: 0 0 0px;
+}
+
+.wpum-registration-form fieldset, .wpum-login-form form p.login-username, .wpum-login-form form p.login-password, .wpum-login-form form p.login-remember {
+    border: none;
+}
+.page-id-98 h1.page-title {
+    display: none;
+}
+a.btn.btn-success.btn-lg.create-account-button {
+    background-color: #5695D8;
+    border-color: #5695D8;
+}
+a.btn.btn-success.btn-lg.create-account-button:hover {
+    background-color: #346292;
+    border-color: #346292;
+}
+.wpum-registration-form-wrapper .fieldset-username {
+    display: none;
+}
+.wpum-password-form-wrapper-reset fieldset.fieldset-password_2 {
+    display: none;
+}
+
+.fa-pinterest-square {
+    color: #CC2127;
+}
+.fa-google-plus-square {
+    color: #CF3D2E;
+}
+.fa-instagram {
+    color: #A1755C;
+}
+.fa-facebook-square {
+    color: #3C599F;
+}
+
+ul.terms li {
+    line-height: 27px;
+    margin-bottom: 12px;
+    width: 90%;
+    text-align: justify;
+}
+ul.terms li strong {
+    color: #346292;
+}
+
+@media screen and (max-width: 480px) {
+	.wpum-registration-form fieldset label {
+    		width: 100%;
+	}
+	.wpum-registration-form fieldset div.field {
+    		width: 100%;
+	}
+}
+
+.top-header {
+    text-align: right;
+    padding: 0px 25px;
+    background-color: #346292;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.top-header a {
+    color: white;
+}
+.top-header a:hover {
+    color: #C1C1C1;
+}
+.site-branding{
+    padding-top:0px;
+    padding-bottom: 0px;
+}
