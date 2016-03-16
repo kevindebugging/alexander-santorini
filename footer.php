@@ -33,7 +33,8 @@
  	?>
 
 	<?php // If either footer nav or site credits, display them
-	if ( $nav_menu OR $site_credits ) : ?>
+	//if ( $nav_menu OR $site_credits ) : ?>
+	<?php if(is_front_page()){ ?>
 	<div class="after-footer">
 	<div class="container">
 
@@ -47,20 +48,16 @@
 			</div><!-- .footer-nav-menu -->
 		<?php endif; ?>
 
-	<div class="social-connect">
-		<p>Connect with Us</p>
-		<a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
-		<a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
-		<a href="https://plus.google.com" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
-		<a href="https://www.pinterest.com" target="_blank"><i class="fa fa-pinterest-square fa-2x"></i></a>
-		<a href="http://www.houzz.com.au/pro/alexandersantorini/alexander-santorini-imports" target="_blank">
-			<img src="/wp-content/uploads/2016/03/badge31.png" alt="Renovation and Home Design" width="30" border="0" />
-		</a>
-	</div>
+
+			<p class="credit">
+				Website Developed by <a href="http://islandmediamanagement.com" target="_blank">Island Media Management</a>
+			</p>
+
 
 	</div><!-- .container -->
 	</div><!-- .after-footer -->
-	<?php endif; ?>
+	<?php } ?>
+	<?php //endif; ?>
 
 	</footer><!-- #colophon -->
 
