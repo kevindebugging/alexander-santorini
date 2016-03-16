@@ -134,10 +134,18 @@ a:hover, a:active, a:focus{
 }
 
 /*Footer*/
+.sidebar-footer {
+    background-color: white;
+    color: inherit;
+}
+.sidebar-footer aside.widget {
+    margin-bottom: 15px;
+}
 .after-footer{
-	background-color: #fff;
+	/*background-color: #fff;
 	color: #555;
-    	font-size: 14px;
+  font-size: 14px;*/
+  display:none;
 }
 .social-connect {
     	min-height: 50px;
