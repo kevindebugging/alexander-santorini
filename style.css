@@ -111,6 +111,9 @@ header.content-header h1 {
 	background-color: #336090;
 	color: #fff;
 }
+.page-id-4 .button-wrapper {
+    padding: 24px;
+}
 a{
 	color: #5695D8;
 }
